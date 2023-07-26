@@ -2,6 +2,10 @@
 
 ## Question_1_1.
 
+![Image](./screenshots/q1.1script.PNG)
+
+---
+
 The "count_csv_files" Function takes "folder_path" as an input argument. It uses the "os.walk" method to traverse the folder structure starting from the "folder_path".
 
 "for root, _, files in os.walk(folder_path):" generates 3 tuples of iterations.
@@ -18,4 +22,9 @@ The "count_csv_files" Function takes "folder_path" as an input argument. It uses
 
 	A common Python construct that allows you to control the execution of code when a Python script is run as the main program.
 
+---
 The output is:
+
+![Image](./screenshots/q1.1output.PNG)
+
+---
