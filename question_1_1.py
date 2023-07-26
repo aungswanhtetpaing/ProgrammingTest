@@ -10,6 +10,6 @@ def count_csv_files(folder_path):
 
 if __name__ == "__main__":
     folder_path = "gw_test/Question1/Dataset"
-    csv_files_count = count_csv_files(gw_test)
+    csv_files_count = count_csv_files(folder_path)
     print(f"CSV File Count: {csv_files_count} files")
 
