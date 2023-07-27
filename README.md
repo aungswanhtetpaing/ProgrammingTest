@@ -6,7 +6,7 @@
 
 ---
 
-The "count_csv_files" Function takes "folder_path" as an input argument. It uses the "os.walk" method to traverse the folder structure starting from the "folder_path".
+1. The "count_csv_files" Function takes "folder_path" as an input argument. It uses the "os.walk" method to traverse the folder structure starting from the "folder_path".
 
 "for root, _, files in os.walk(folder_path):" generates 3 tuples of iterations.
 
@@ -23,12 +23,16 @@ The "count_csv_files" Function takes "folder_path" as an input argument. It uses
 	A common Python construct that allows you to control the execution of code when a Python script is run as the main program.
 
 ---
-The output is:
+### The output is:
 
 ![Image](./screenshots/q1.1output.PNG)
 
 ---
 ## Question_1_2.
+
+![Image](./screenshots/q.1.2script.PNG)
+
+---
 
 ### 1. " convert_csv_to_json_in_folder(folder_path)" function.
 - Absolute File path is used for subdirectory in "Dataset" which is "RankC".	
@@ -42,9 +46,19 @@ Using an absolute file path provides the full and unambiguous location of a file
 ### 2. " csv_to_json(csv_file_path) " function.
 
 - This function will use "replace" method to convert .csv to .json extension.
-	
-	"with" statement	-	A context manager to automatically close the file after the code is executed.
-	"reader" object		-	It allows to iterate over the rows of the CSV file easily.
-	"data = [---]"		-	It creates a list of dictionaries (data) where each dictionary represents a row in the CSV file. The keys are 'x', 'y', 'width', 'height', and 'tag'. Values are obtained by converting the elements in each row to float and using the original string values. 	
+
+		"with" statement	-	A context manager to automatically close the file after the code is executed.
+		"reader" object		-	It allows to iterate over the rows of the CSV file easily.
+		"data = [---]"		-	It creates a list of dictionaries (data) where each dictionary represents a row in the CSV file. The keys are 'x', 'y', 'width', 'height', and 'tag'. Values are obtained by converting the elements in each row to float and using the original string values. 	
 
 - And then, contents of the data list is written in json format.
+
+---
+
+### 3. Result:
+
+---
+![Image](./screenshots/q.1.2tojson.PNG)
+
+![Image](./screenshots/q.1.2tojson2.PNG)
+---
