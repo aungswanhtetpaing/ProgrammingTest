@@ -66,10 +66,17 @@ Using an absolute file path provides the full and unambiguous location of a file
 ## Question_1_3
 
 ## Question_2_1
-
-### 1. "count_pixels_by_color" function:
+---
+![Image](./screenshots/q.2.1script.PNG).
+---
+### "count_pixels_by_color" function:
 - Image.open(image_path)	=	This method creates an 'Image' object from the image file path.
 - getdata() 		=	This method returns a sequence containing pixel values.
 - An empty dictionary "pixel_counts" is created to store the counts of each color. 
 - Then, sequence of pixel data are looped and place in the r, g, b variables and determine color based on the intensity of pixel.
 - At the end of the function, dictionary is updated and pixel counts are returned.
+
+### Output:
+---
+![Image](./screenshots/q.2.1sample.PNG).
+---
