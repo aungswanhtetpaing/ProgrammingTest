@@ -1,6 +1,6 @@
 # ProgrammingTest
 
-## Question_1_1.
+# Question_1_1.
 
 ![Image](./screenshots/q1.1script.PNG)
 
@@ -28,7 +28,7 @@
 ![Image](./screenshots/q1.1output.PNG)
 
 ---
-## Question_1_2.
+# Question_1_2.
 
 ![Image](./screenshots/q.1.2script.PNG)
 
@@ -63,9 +63,9 @@ Using an absolute file path provides the full and unambiguous location of a file
 ![Image](./screenshots/q.1.2tojson2.PNG)
 ---
 
-## Question_1_3
+# Question_1_3
 
-## Question_2_1
+# Question_2_1
 ---
 ![Image](./screenshots/q.2.1script.PNG).
 ---
@@ -79,4 +79,14 @@ Using an absolute file path provides the full and unambiguous location of a file
 ### Output:
 ---
 ![Image](./screenshots/q.2.1sample.PNG).
+
+
+---
+#  Question_2_2
+---
+![Image](./screenshots/q.2.2script.PNG).
+---
+## Result
+---
+![Image](./screenshots/q.2.2result.PNG).
 ---
