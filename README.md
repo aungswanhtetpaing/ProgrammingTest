@@ -104,10 +104,10 @@ Using an absolute file path provides the full and unambiguous location of a file
 > 5. **Returned result:** After the cropping process is completed, the cropped_foreground will contain only the part of the original foreground image that corresponds to the region of interest defined by the binary mask, and the rest of the image will be transparent, allowing for easy compositing with other images or backgrounds.
 ---
 ### "composite_images" function:
-> **1.Resize:** First, I need to resize the "cropped_foreground" image to match the size of the "background" image. I also used the resize() method with the Image.LANCZOS resampling filter, which provides good quality when resizing images.
-> **2.Composite:** This line creates the final composite image by pasting the resized cropped_foreground onto the background. To do this, both images are converted to the "RGBA" mode to ensure they have an alpha channel (transparency). Then, the alpha_composite() method is used to composite the images based on their alpha channels. The alpha_composite() method preserves the transparency of both images while combining them.
-> **3.Reconvert to RGB mode:** JPEG does not support an alpha channel.
-> **4.Save the image:** ( Please check the output image in the following! )
+> 1. __Resize:__ First, I need to resize the "cropped_foreground" image to match the size of the "background" image. I also used the resize() method with the Image.LANCZOS resampling filter, which provides good quality when resizing images.
+> 2. **Composite:** This line creates the final composite image by pasting the resized cropped_foreground onto the background. To do this, both images are converted to the "RGBA" mode to ensure they have an alpha channel (transparency). Then, the alpha_composite() method is used to composite the images based on their alpha channels. The alpha_composite() method preserves the transparency of both images while combining them.
+> 3. **Reconvert to RGB mode:** JPEG does not support an alpha channel.
+> 4. **Save the image:** ( Please check the output image in the following! )
 ---
 
 ---
