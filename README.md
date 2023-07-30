@@ -94,8 +94,9 @@ Using an absolute file path provides the full and unambiguous location of a file
 # Question_2_3
 
 ---
-
+![Image](./screenshots/q.2.3script.PNG).
 ---
+
 ### "crop_foreground" function:
 > 1. **Convert to grayscale:** 	Mask image is converted to grayscale because grayscale images have only one channel (representing luminance), which is essential to simplify the process of thresholding later.
 > 2. **Threshold to create binary mask:**  	The "point()" method maps the image's pixel values through a lambda function. If the pixel value is less than 128, it is set to 255 (white or the region of interest); otherwise, it is set to 0 (black). {Note: Red color has pixel values less than 128 and the green color has pixel values greater than or equal to 128. Therefore red color is assumed as an interested region ( as the question needed). The green color will be transparent in the "cropped_foreground".}
@@ -108,6 +109,7 @@ Using an absolute file path provides the full and unambiguous location of a file
 > 2. **Composite:** This line creates the final composite image by pasting the resized cropped_foreground onto the background. To do this, both images are converted to the "RGBA" mode to ensure they have an alpha channel (transparency). Then, the alpha_composite() method is used to composite the images based on their alpha channels. The alpha_composite() method preserves the transparency of both images while combining them.
 > 3. **Reconvert to RGB mode:** JPEG does not support an alpha channel.
 > 4. **Save the image:** ( Please check the output image in the following! )
----
 
+---
+![Image](./screenshots/q.2.3result3.PNG).
 ---
