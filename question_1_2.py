@@ -1,11 +1,7 @@
 import os
 import csv
 import json
-
-if __name__ == "__main__":
-    folder_path = "gw_test/Question1/Dataset"
-    convert_csv_to_json_in_folder(folder_path)
-
+  
 def convert_csv_to_json_in_folder(folder_path):
     abs_folder_path = os.path.abspath(folder_path)
     for root, _, files in os.walk(abs_folder_path):
@@ -13,7 +9,7 @@ def convert_csv_to_json_in_folder(folder_path):
             if filename.endswith('.csv'):
                 csv_file_path = os.path.join(root, filename)
                 csv_to_json(csv_file_path)
-
+                
 def csv_to_json(csv_file_path):
     json_file_path = csv_file_path.replace('.csv', '.json')
     
@@ -33,3 +29,8 @@ def csv_to_json(csv_file_path):
     
     with open(json_file_path, 'w') as json_file:
         json.dump(data, json_file, indent=4)
+        
+
+if __name__ == "__main__":
+    folder_path = "gw_test/Question1/Dataset"
+    convert_csv_to_json_in_folder(folder_path)
