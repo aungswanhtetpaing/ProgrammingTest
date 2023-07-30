@@ -117,7 +117,7 @@ Using an absolute file path provides the full and unambiguous location of a file
 # Question_2_4.
 
 ---
-
+![Image](./screenshots/q.2.4script.PNG).
 ---
 
 ### crop_center function:
@@ -131,3 +131,8 @@ Using an absolute file path provides the full and unambiguous location of a file
 > 2. Input the image with 1024x1024 size.
 > 3. Rotate the cropped image 30 degrees clockwise(-30).
 > 4. Save the image.
+
+### Result:
+---
+![Image](./screenshots/q.2.4result.PNG).
+---
