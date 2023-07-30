@@ -113,3 +113,21 @@ Using an absolute file path provides the full and unambiguous location of a file
 ---
 ![Image](./screenshots/q.2.3result3.PNG).
 ---
+
+# Question_2_4.
+
+---
+
+---
+
+### crop_center function:
+> To keep the center of the original image at the center of the cropped region, the provided formula is used. Then, the image.crop method is used to create a new image that represents the cropped region.
+
+### rotate_image function:
+> The "image.rotate" method is used to perform the rotation. The center of rotation is specified as (W/2, H/2), which represents the coordinates of the center of the image. By using "Image.BICUBIC" as the resampling method during image rotation, the "image.rotate" method produces more visually pleasing and accurate results, especially when resizing and rotating images with complex patterns or fine details.
+
+### Main steps
+> 1. Open the "result3.jpb".
+> 2. Input the image with 1024x1024 size.
+> 3. Rotate the cropped image 30 degrees clockwise(-30).
+> 4. Save the image.
