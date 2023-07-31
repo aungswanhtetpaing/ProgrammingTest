@@ -66,6 +66,7 @@ Using an absolute file path provides the full and unambiguous location of a file
 
 
 # Question_2_1
+## A program that outputs the number of pixels for each color in an image
 ---
 ![Image](./screenshots/q.2.1script.PNG).
 ---
@@ -83,6 +84,7 @@ Using an absolute file path provides the full and unambiguous location of a file
 
 ---
 #  Question_2_2
+## A program that creates an image with only red pixels masked
 ---
 ![Image](./screenshots/q.2.2script.PNG).
 ---
