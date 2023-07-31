@@ -30,7 +30,7 @@
 
 ---
 
-### 1. " convert_csv_to_json_in_folder(folder_path)" function.
+### " convert_csv_to_json_in_folder(folder_path)" function.
 > Absolute File path is used for subdirectory in "Dataset" which is "RankC".	
 Using an absolute file path provides the full and unambiguous location of a file or directory in the file system. Unlike a relative file path, which is dependent on the script's current working directory, an absolute file path always points to the same location, regardless of where the script is executed from. This ensures that the script can reliably access the required files even if it's moved to a different directory or run from a different location. If I use Relative file path and, if the script is executed from a different location, the relative path might point to a different directory, leading to FileNotFoundError if the files are not found in that location
 
@@ -38,7 +38,7 @@ Using an absolute file path provides the full and unambiguous location of a file
 
 > And then, "csv_to_json(csv_file_path)" function is called.
 
-### 2. " csv_to_json(csv_file_path) " function.
+### " csv_to_json(csv_file_path) " function.
 
 > This function will use "replace" method to convert .csv to .json extension.
 
@@ -50,12 +50,10 @@ Using an absolute file path provides the full and unambiguous location of a file
 
 ---
 
-### 3. Result:
+### Result:
 
 ---
 ![Image](./screenshots/q.1.2tojson.PNG)
-
-![Image](./screenshots/q.1.2tojson2.PNG)
 ---
 
 # Question_1_3
@@ -66,6 +64,11 @@ Using an absolute file path provides the full and unambiguous location of a file
 ### "csv_to_xml" function
 > This function takes the path to a CSV file as input and converts its data into an XML format. It creates an XML tree with a root element called 'bounding_boxes', and then for each row in the CSV file, it creates a 'bounding_box' element under the root element. Each 'bounding_box' element has five sub-elements: 'x', 'y', 'width', 'height', and 'tag', which represent the coordinates and a tag for the bounding box. The values from the CSV file are used to fill the corresponding elements.
 > [Note: A bounding box is a rectangular box used to represent the spatial extent of an object or region in an image or 2D space. It is commonly used in computer vision, object detection, and various other image-related tasks.]
+
+### Result:
+___
+![Image](./screenshots/q.1.3result.PNG).
+---
 
 # Question_2_1
 ## A program that outputs the number of pixels for each color in an image
